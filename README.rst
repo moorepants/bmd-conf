@@ -1,7 +1,7 @@
 The source code for the main BMD conference website. The rendered version can
 be viewed at:
 
-http://moorepants.github.io/bmd-conf
+http://moorepants.github.io/bmdconf
 
 This site is generated with Pelican_.
 
