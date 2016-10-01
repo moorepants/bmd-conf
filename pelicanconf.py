@@ -8,6 +8,8 @@ SITEURL = ''
 
 PATH = 'content'
 THEME = 'theme'
+BOOTSTRAP_THEME = 'united'
+CC_LICENSE = "CC-BY"
 PAGE_ORDER_BY = 'sortorder'
 
 TIMEZONE = 'US/Pacific'
