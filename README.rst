@@ -14,7 +14,7 @@ Install miniconda_ and add conda-forge as a channel. Create an environment for
 Pelican sites::
 
    $ conda config --add channels conda-forge
-   $ conda create -n pelican python=2 pelican ghp-import
+   $ conda create -n pelican python=2 pelican ghp-import fabric
    $ source activate pelican
    (pelican)$
 
