@@ -8,10 +8,10 @@ first conference was held in Delft, Netherlands in 2010. The aim of this
 symposium is to bring together leading scientists and researchers in the field
 of bicycle and motorcycle dynamics and control, in a broad sense.
 
-Topics include but are not limited to: bicycles, motorcycles, unicycles,
-modelling, kinematics and dynamics, control, human control, rider properties,
-handling qualities, tires, experiments, aerodynamics, simulators, nonholonomic
-dynamics, robot riders, path following.
+Topics include but are not limited to: bicycles, motorcycles, unicycles, single
+track vehicles, modelling, kinematics and dynamics, control, human control,
+rider properties, handling qualities, tires, experiments, aerodynamics,
+simulators, nonholonomic dynamics, robot riders, path following.
 
 For an open sharing of information, the meeting is organized to provide as much
 interaction between participants as possible. The format is informal and fluid,
