@@ -8,7 +8,7 @@ SITEURL = ''
 
 PATH = 'content'
 THEME = 'theme'
-BOOTSTRAP_THEME = 'united'
+BOOTSTRAP_THEME = 'cerulean'
 CC_LICENSE = "CC-BY"
 PAGE_ORDER_BY = 'sortorder'
 
