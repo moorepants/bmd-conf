@@ -91,5 +91,8 @@ def gh_pages():
     """Publish to GitHub Pages"""
     clean()
     local('pelican -s publishconf.py')
+    # This file is put there by Github's settings and will get overwritten
+    # unless this is done.
+    local("echo 'bmdconf.org' > output/CNAME")
     local("ghp-import -n -b {github_pages_branch} {deploy_path}".format(**env))
     local("git push origin {github_pages_branch}".format(**env))
