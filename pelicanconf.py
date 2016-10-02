@@ -25,15 +25,27 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 
+PASTCONFS = (
+    ('BMD 2010 (Delft)', 'http://bicycle.tudelft.nl/bmd2010'),
+    ('BMD 2013 (Narashino)', 'http://www.bmd2013.org/'),
+    ('BMD 2016 (Milwaukee)', 'http://www.bmd2016mke.org/'),
+)
+
 LINKS = (
-            ('BMD 2016', 'http://www.bmd2016mke.org/'),
-        )
+    ('Motorcycle Dynamics Research Group', 'http://www.dinamoto.it/'),
+    ('MOVE', 'https://www.move.deib.polimi.it/'),
+    ('TU Delft Bicycle Dynamics', 'http://bicycle.tudelft.nl'),
+    ('Cornell Bicyce Mechanics', 'http://ruina.tam.cornell.edu/research/topics/bicycle_mechanics/overview.php'),
+    ('UCD Bicycle Research', 'http://biosport.ucdavis.edu/research-projects/bicycle'),
+    ('Good Bicycle Science Blog', 'https://goodbicyclescience.com/'),
+    ('Bad Bicycle Science Blog', 'https://badbicyclescience.com/'),
+)
 
 # Social widget
 SOCIAL = (
-            ('STVDY Listserv', 'https://groups.google.com/forum/#!forum/stvdy'),
-            ('G+ Community', 'https://plus.google.com/communities/111776350998223174138'),
-         )
+    ('STVDY Listserv', 'https://groups.google.com/forum/#!forum/stvdy'),
+    ('G+ Community', 'https://plus.google.com/communities/111776350998223174138'),
+)
 
 DEFAULT_PAGINATION = False
 
