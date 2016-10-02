@@ -32,8 +32,8 @@ PASTCONFS = (
 )
 
 LINKS = (
-    ('Motorcycle Dynamics Research Group', 'http://www.dinamoto.it/'),
-    ('MOVE', 'https://www.move.deib.polimi.it/'),
+    (r'University of Padua<br>Motorcycle Dynamics<br>Research Group', 'http://www.dinamoto.it/'),
+    ('Polytechnic University<br>of Milan MOVE', 'https://www.move.deib.polimi.it/'),
     ('TU Delft Bicycle Dynamics', 'http://bicycle.tudelft.nl'),
     ('Cornell Bicyce Mechanics', 'http://ruina.tam.cornell.edu/research/topics/bicycle_mechanics/overview.php'),
     ('UCD Bicycle Research', 'http://biosport.ucdavis.edu/research-projects/bicycle'),
