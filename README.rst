@@ -1,30 +1,33 @@
 The source code for the main BMD conference website. The rendered version can
 be viewed at:
 
-http://moorepants.github.io/bmdconf
+http://bmdconf.org
 
 This site is generated with Pelican_.
 
 .. _Pelican: getpelican.com
 
-Build Instructions
-==================
+Local Build Instructions
+========================
 
 Install miniconda_ and add conda-forge as a channel. Create an environment for
 Pelican sites::
 
    $ conda config --add channels conda-forge
-   $ conda create -n pelican python=2 pelican ghp-import fabric
+   $ conda create -n pelican pelican
    $ source activate pelican
    (pelican)$
 
 Rebuild and serve the site locally::
 
-   (pelican)$ fab reserve
+   (pelican)$ make devserver
 
-Push the site to Github pages::
+Stop the server::
 
-   (pelican)$ fab gh_pages
+   (pelican)$ make stopserver
+
+Once changes are made, submit a pull request and the site will be built
+automatically with doctr.
 
 .. _miniconda: http://conda.pydata.org/miniconda.html
 
