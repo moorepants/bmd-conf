@@ -1,0 +1,13 @@
+language: python
+python:
+  - 3.6
+env:
+  global:
+    # Doctr deploy key for moorepants/bmdconf
+    - secure: "BQNOeyCxjWWinx1nSaohKfC2k7NiHu1ujHqg/fMEQTWvcziPiXAXeviWi5SztaX2bsgFAqN9NGSk2IbwlfVHSFLiFRa2IHxWaVlhg4CM2ByrtVxjOk0bNs72EwYpDZNxazDBSdvQvE+zDyLFBHKL0vTZOXEI2s16XD7eKH5gW3sG+KvbjSHSZ8pDv1hw22dDL+jtlNUWsI8V/Tw/n1L/eKSRKRQoAIPhhWk6pJFOuc/QHhJ9Ez2ROGE+EXpHCSj6PfqGo4TPL3SNoe+Tk+XVGCu2zVRHfCL9prtuLFDU8fjYGFnIasluoYBYA4ZfWeR1gf9NiAYAEXL5nEdVM3SsuIKzNg3oGzRBlU4tsWn+8pqd94JRV8ZpE3Cawj0pq/ZbQwgGth5RjgEUCQHEujqHKiDNsRFqpSKfWNnuYnFSJZTIrQTpHyfqO+UvFqp3Ecrd9YwK3mZ+4wEGMAwqSwh3C0xkbdzUwvuQKZggaCDSLSB292VzRdc7xfxqHznszMtUaKQYpA/TGQ6DIqM6SCQhIruzpeMEnC9UMIEvrgxhd6i1Toia6D8GYmtniy2xA3qHi9kRMJg9aoUwYWuuq1C9T9nO2MMvxE7XXmy2qlUwM56zmGIqVsARaIP1Smdz0OCnwOJF541UIHyzdX94aquTGtDicGRYJha79K3B2UHzBvs="
+install:
+  - pip install pelican doctr
+script:
+  - set -e
+  - pelican -s publishconf.py
+  - doctr deploy --built-docs output/ .
