@@ -26,9 +26,10 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 
 PASTCONFS = (
-    ('BMD 2010 (Delft)', 'https://web.archive.org/web/20100529174822/http://bicycle.tudelft.nl/bmd2010'),
-    ('BMD 2013 (Narashino)', 'http://www.bmd2013.org/'),
+    ('BMD 2019 (Padova)', 'http://www.bmd2019.org/'),
     ('BMD 2016 (Milwaukee)', 'http://www.bmd2016mke.org/'),
+    ('BMD 2013 (Narashino)', 'http://www.bmd2013.org/'),
+    ('BMD 2010 (Delft)', 'https://web.archive.org/web/20100529174822/http://bicycle.tudelft.nl/bmd2010'),
 )
 
 LINKS = (
