@@ -18,7 +18,8 @@ interaction between participants as possible. The format is informal and fluid,
 with a single track of presentations and extensive time scheduled for
 interaction, and the forming and sharing of ideas.
 
-The current scientific committee is:
+A scientific committee is selected for each conference. Past scientific
+committee members are:
 
 - Jim Brendelson, Harley-Davidson Motor Company, USA
 - Alberto Doria, University of Padua, Italy
