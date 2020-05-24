@@ -6,10 +6,12 @@ proceedings. The proceedings are not peer reviewed and are effectively
 preprints_. The authors are then welcome to submit the work to a journal of
 their choice following the conference.
 
+- `BMD 2019 Proceedings`_
 - `BMD 2016 Proceedings`_
 - `BMD 2010 Proceedings`_
 
 .. _preprints: https://en.wikipedia.org/wiki/Preprint
+.. _BMD 2019 Proceedings: https://bmd2019.figshare.com
 .. _BMD 2016 Proceedings: https://figshare.com/collections/Proceedings_of_the_2016_Bicycle_and_Motorcycle_Dynamics_Conference/3460590
 .. _BMD 2010 Proceedings: http://www.bicycle.tudelft.nl/ProceedingsBMD2010
 
